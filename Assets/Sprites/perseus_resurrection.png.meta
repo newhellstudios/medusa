@@ -1,0 +1,385 @@
+fileFormatVersion: 2
+guid: 2f6c2fbd9e2c3e74b8b55990720e6b98
+timeCreated: 1466741962
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: perseus_resurrection_0
+    21300002: perseus_resurrection_1
+    21300004: perseus_resurrection_2
+    21300006: perseus_resurrection_3
+    21300008: perseus_resurrection_4
+    21300010: perseus_resurrection_5
+    21300012: perseus_resurrection_6
+    21300014: perseus_resurrection_7
+    21300016: perseus_resurrection_8
+    21300018: perseus_resurrection_9
+    21300020: perseus_resurrection_10
+    21300022: perseus_resurrection_11
+    21300024: perseus_resurrection_12
+    21300026: perseus_resurrection_13
+    21300028: perseus_resurrection_14
+    21300030: perseus_resurrection_15
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 8192
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 64
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: perseus_resurrection_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.565, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.3199997, y: 1}
+        - {x: -16.32, y: -4}
+        - {x: -22.32, y: -17}
+        - {x: -22.32, y: -30}
+        - {x: -21.32, y: -32}
+        - {x: -5.3199997, y: -32}
+        - {x: 16.68, y: -24}
+        - {x: 25.68, y: -10}
+        - {x: 25.68, y: -3}
+        - {x: 8.68, y: 1}
+    - name: perseus_resurrection_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.565, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.320007, y: -1}
+        - {x: -21.320007, y: -13}
+        - {x: -21.320007, y: -32}
+        - {x: 0.6799927, y: -32}
+        - {x: 12.679993, y: -20}
+        - {x: 24.679993, y: -9}
+        - {x: 24.679993, y: -1}
+    - name: perseus_resurrection_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.565, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.679993, y: 7}
+        - {x: -9.320007, y: 7}
+        - {x: -21.320007, y: -5}
+        - {x: -21.320007, y: -25}
+        - {x: -19.320007, y: -32}
+        - {x: -0.32000732, y: -32}
+        - {x: 6.6799927, y: -31}
+        - {x: 22.679993, y: -10}
+        - {x: 22.679993, y: 3}
+    - name: perseus_resurrection_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.565, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23.679993, y: 8}
+        - {x: 4.6799927, y: 14}
+        - {x: -2.3200073, y: 14}
+        - {x: -12.320007, y: 9}
+        - {x: -19.320007, y: -6}
+        - {x: -19.320007, y: -32}
+        - {x: -3.3200073, y: -32}
+        - {x: 5.6799927, y: -23}
+        - {x: 23.679993, y: 1}
+    - name: perseus_resurrection_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.565, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.32, y: 21}
+        - {x: -25.32, y: 12}
+        - {x: -25.32, y: -32}
+        - {x: 1.6800003, y: -32}
+        - {x: 18.68, y: 1}
+        - {x: 18.68, y: 21}
+    - name: perseus_resurrection_5
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.565, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2.6799927, y: -11}
+        - {x: 19.679993, y: -12}
+        - {x: 21.679993, y: -2}
+        - {x: 21.679993, y: 27}
+        - {x: -12.320007, y: 27}
+        - {x: -21.320007, y: 25}
+        - {x: -23.320007, y: 16}
+        - {x: -23.320007, y: -19}
+        - {x: -14.320007, y: -32}
+        - {x: -7.3200073, y: -32}
+        - {x: 2.6799927, y: -17}
+        - {x: -3.3200073, y: -3}
+    - name: perseus_resurrection_6
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.565, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18.679993, y: 29}
+        - {x: -11.320007, y: 29}
+        - {x: -28.320007, y: 10}
+        - {x: -28.320007, y: -21}
+        - {x: -27.320007, y: -26}
+        - {x: -21.320007, y: -32}
+        - {x: -7.3200073, y: -32}
+        - {x: 18.679993, y: 3}
+        - {x: 22.679993, y: 16}
+        - {x: 22.679993, y: 24}
+    - name: perseus_resurrection_7
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.565, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28.320007, y: 35}
+        - {x: -34.320007, y: 25}
+        - {x: -34.320007, y: 14}
+        - {x: -30.320007, y: 7}
+        - {x: -20.320007, y: -29}
+        - {x: -14.320007, y: -30}
+        - {x: -10.320007, y: -29}
+        - {x: 1.6799927, y: -11}
+        - {x: 22.679993, y: 11}
+        - {x: 22.679993, y: 35}
+    - name: perseus_resurrection_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.565, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40.32, y: 42}
+        - {x: -40.32, y: 2}
+        - {x: -33.32, y: -19}
+        - {x: 1.6800003, y: -19}
+        - {x: 20.68, y: 8}
+        - {x: 20.68, y: 42}
+    - name: perseus_resurrection_9
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.565, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.320007, y: 54}
+        - {x: -28.320007, y: 50}
+        - {x: -37.320007, y: 40}
+        - {x: -40.320007, y: 36}
+        - {x: -40.320007, y: 27}
+        - {x: -19.320007, y: -17}
+        - {x: -6.3200073, y: -17}
+        - {x: 24.679993, y: 24}
+        - {x: 24.679993, y: 38}
+        - {x: -2.3200073, y: 54}
+    - name: perseus_resurrection_10
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.565, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40.320007, y: 18}
+        - {x: -18.320007, y: -22}
+        - {x: -9.320007, y: -22}
+        - {x: 22.679993, y: 14}
+        - {x: 22.679993, y: 29}
+        - {x: 14.679993, y: 43}
+        - {x: -5.3200073, y: 50}
+        - {x: -31.320007, y: 50}
+        - {x: -40.320007, y: 45}
+    - name: perseus_resurrection_11
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.565, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1.3200073, y: 22}
+        - {x: -36.320007, y: 22}
+        - {x: -36.320007, y: -1}
+        - {x: -17.320007, y: -32}
+        - {x: 3.6799927, y: -32}
+        - {x: 23.679993, y: -11}
+        - {x: 23.679993, y: 8}
+        - {x: 1.6799927, y: 21}
+    - name: perseus_resurrection_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.565, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39.32, y: 13}
+        - {x: -39.32, y: -18}
+        - {x: -31.32, y: -32}
+        - {x: 0.6800003, y: -32}
+        - {x: 20.68, y: -14}
+        - {x: 20.68, y: 0}
+        - {x: 7.6800003, y: 13}
+    - name: perseus_resurrection_13
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.565, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.320007, y: 27}
+        - {x: -36.320007, y: 15}
+        - {x: -36.320007, y: -26}
+        - {x: -29.320007, y: -32}
+        - {x: 15.679993, y: -32}
+        - {x: 15.679993, y: 4}
+        - {x: -5.3200073, y: 27}
+    - name: perseus_resurrection_14
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.565, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7.6799927, y: 30}
+        - {x: -22.320007, y: 30}
+        - {x: -32.320007, y: 17}
+        - {x: -32.320007, y: -26}
+        - {x: -28.320007, y: -32}
+        - {x: 2.6799927, y: -32}
+        - {x: 10.679993, y: -10}
+        - {x: 11.679993, y: 4}
+        - {x: 11.679993, y: 27}
+    - name: perseus_resurrection_15
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.565, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.320007, y: -28}
+        - {x: -29.320007, y: -32}
+        - {x: 8.679993, y: -32}
+        - {x: 14.679993, y: -14}
+        - {x: 14.679993, y: 29}
+        - {x: -26.320007, y: 29}
+        - {x: -31.320007, y: 27}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

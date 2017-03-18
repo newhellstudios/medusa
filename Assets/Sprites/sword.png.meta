@@ -1,0 +1,143 @@
+fileFormatVersion: 2
+guid: dc114f80009276b428505c4ebca161f6
+timeCreated: 1444600108
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: sword_0
+    21300002: sword_1
+    21300004: sword_2
+    21300006: sword_3
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 8192
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 64
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: Standalone
+    maxTextureSize: 8192
+    textureFormat: -3
+    compressionQuality: 50
+    allowsAlphaSplitting: 0
+  spriteSheet:
+    sprites:
+    - name: sword_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 18}
+        - {x: -7, y: 16}
+        - {x: -7, y: 9}
+        - {x: -3, y: 0}
+        - {x: 32, y: 0}
+        - {x: 32, y: 13}
+        - {x: 21, y: 18}
+    - name: sword_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 23}
+        - {x: -29, y: 18}
+        - {x: -32, y: 15}
+        - {x: -32, y: 7}
+        - {x: -9, y: 7}
+        - {x: 2, y: 15}
+        - {x: 2, y: 20}
+        - {x: 0, y: 22}
+    - name: sword_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 32}
+        - {x: -9, y: 23}
+        - {x: -10, y: 12}
+        - {x: -10, y: 2}
+        - {x: -8, y: 0}
+        - {x: -5, y: 0}
+        - {x: 4, y: 1}
+        - {x: 4, y: 32}
+    - name: sword_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: 0}
+        - {x: 1, y: 0}
+        - {x: -3, y: -3}
+        - {x: -8, y: -24}
+        - {x: -8, y: -31}
+        - {x: -7, y: -32}
+        - {x: 4, y: -32}
+        - {x: 5, y: -23}
+        - {x: 6, y: -12}
+        - {x: 6, y: -2}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

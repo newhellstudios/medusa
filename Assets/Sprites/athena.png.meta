@@ -1,0 +1,933 @@
+fileFormatVersion: 2
+guid: a89e72a1711351e40a6c9f1bab923eb3
+timeCreated: 1466738853
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: athena_0
+    21300002: athena_1
+    21300004: athena_2
+    21300006: athena_3
+    21300008: athena_4
+    21300010: athena_5
+    21300012: athena_6
+    21300014: athena_7
+    21300016: athena_8
+    21300018: athena_9
+    21300020: athena_10
+    21300022: athena_11
+    21300024: athena_12
+    21300026: athena_13
+    21300028: athena_14
+    21300030: athena_15
+    21300032: athena_16
+    21300034: athena_17
+    21300036: athena_18
+    21300038: athena_19
+    21300040: athena_20
+    21300042: athena_21
+    21300044: athena_22
+    21300046: athena_23
+    21300048: athena_24
+    21300050: athena_25
+    21300052: athena_26
+    21300054: athena_27
+    21300056: athena_28
+    21300058: athena_29
+    21300060: athena_30
+    21300062: athena_31
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 8192
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 64
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: athena_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1792
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: -92}
+        - {x: 13, y: -104}
+        - {x: 21, y: -104}
+        - {x: 28, y: -63}
+        - {x: 28, y: 125}
+        - {x: 20, y: 125}
+        - {x: 13, y: 116}
+        - {x: -11, y: 82}
+        - {x: -28, y: 49}
+        - {x: -34, y: 35}
+        - {x: -34, y: 30}
+        - {x: -31, y: 30}
+        - {x: -28, y: -63}
+        - {x: -15, y: -104}
+        - {x: -7, y: -104}
+        - {x: -6, y: -82}
+        - {x: -9, y: -72}
+        - {x: -6, y: -79}
+    - name: athena_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1792
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: -105}
+        - {x: 25, y: -105}
+        - {x: 28, y: -97}
+        - {x: 28, y: 117}
+        - {x: 24, y: 128}
+        - {x: 15, y: 128}
+        - {x: 12, y: 121}
+        - {x: 14, y: 87}
+        - {x: 17, y: 55}
+        - {x: 13, y: 51}
+        - {x: 13, y: 49}
+        - {x: 14, y: 46}
+        - {x: 8, y: 38}
+        - {x: 14, y: 56}
+        - {x: 12, y: 73}
+        - {x: 7, y: 84}
+        - {x: -25, y: 71}
+        - {x: -25, y: -90}
+        - {x: -14, y: -105}
+        - {x: -9, y: -105}
+        - {x: -6, y: -100}
+        - {x: -7, y: -84}
+        - {x: -9, y: -72}
+        - {x: -6, y: -79}
+    - name: athena_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1792
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22, y: 126}
+        - {x: 18, y: 126}
+        - {x: 17, y: 125}
+        - {x: 13, y: 98}
+        - {x: 14, y: 62}
+        - {x: -4, y: 69}
+        - {x: -25, y: 54}
+        - {x: -25, y: -109}
+        - {x: -13, y: -109}
+        - {x: -7, y: -105}
+        - {x: -5, y: -101}
+        - {x: -7, y: -73}
+        - {x: -6, y: -78}
+        - {x: 2, y: -91}
+        - {x: 10, y: -92}
+        - {x: 14, y: -71}
+        - {x: 17, y: -51}
+        - {x: 17, y: -37}
+        - {x: 17, y: -83}
+        - {x: 16, y: -84}
+        - {x: 16, y: -93}
+        - {x: 18, y: -103}
+        - {x: 19, y: -107}
+        - {x: 21, y: -109}
+        - {x: 26, y: -109}
+        - {x: 36, y: -11}
+        - {x: 36, y: 30}
+        - {x: 28, y: 111}
+    - name: athena_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1792
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: -102}
+        - {x: 27, y: -107}
+        - {x: 29, y: -107}
+        - {x: 36, y: -37}
+        - {x: 36, y: 35}
+        - {x: 24, y: 84}
+        - {x: 22, y: 86}
+        - {x: 20, y: 86}
+        - {x: 13, y: 77}
+        - {x: 14, y: 70}
+        - {x: 14, y: 56}
+        - {x: 9, y: 72}
+        - {x: 5, y: 79}
+        - {x: -23, y: 85}
+        - {x: -25, y: 72}
+        - {x: -25, y: -98}
+        - {x: -11, y: -106}
+        - {x: -9, y: -107}
+        - {x: -6, y: -106}
+        - {x: -4, y: -102}
+        - {x: -6, y: -74}
+        - {x: -4, y: -82}
+    - name: athena_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1536
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: -53}
+        - {x: -21, y: -59}
+        - {x: -21, y: -78}
+        - {x: -11, y: -106}
+        - {x: -8, y: -107}
+        - {x: -4, y: -107}
+        - {x: -4, y: -64}
+        - {x: -10, y: -53}
+      - - {x: 22, y: 115}
+        - {x: 19, y: 115}
+        - {x: 11, y: 107}
+        - {x: -25, y: 59}
+        - {x: -25, y: -50}
+        - {x: -20, y: -63}
+        - {x: 0, y: -90}
+        - {x: 27, y: -90}
+        - {x: 27, y: 109}
+        - {x: 24, y: 113}
+    - name: athena_5
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1536
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: -52}
+        - {x: -21, y: -58}
+        - {x: -21, y: -77}
+        - {x: -11, y: -105}
+        - {x: -8, y: -106}
+        - {x: -4, y: -106}
+        - {x: -4, y: -63}
+        - {x: -10, y: -52}
+      - - {x: 20, y: 115}
+        - {x: -25, y: 60}
+        - {x: -25, y: -50}
+        - {x: -10, y: -90}
+        - {x: 29, y: -90}
+        - {x: 29, y: 115}
+    - name: athena_6
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1536
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: -51}
+        - {x: -22, y: -53}
+        - {x: -22, y: -85}
+        - {x: -15, y: -105}
+        - {x: -5, y: -105}
+        - {x: -5, y: -62}
+        - {x: -11, y: -51}
+      - - {x: 20, y: 118}
+        - {x: 13, y: 109}
+        - {x: 14, y: 102}
+        - {x: 17, y: 97}
+        - {x: 14, y: 88}
+        - {x: -12, y: 62}
+        - {x: -25, y: 47}
+        - {x: -25, y: -44}
+        - {x: -13, y: -87}
+        - {x: 27, y: -87}
+        - {x: 27, y: 115}
+        - {x: 22, y: 118}
+    - name: athena_7
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1536
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: -50}
+        - {x: -23, y: -52}
+        - {x: -23, y: -84}
+        - {x: -16, y: -104}
+        - {x: -6, y: -104}
+        - {x: -6, y: -61}
+        - {x: -12, y: -50}
+      - - {x: 19, y: 117}
+        - {x: -25, y: 74}
+        - {x: -25, y: -83}
+        - {x: -14, y: -88}
+        - {x: 27, y: -88}
+        - {x: 27, y: 117}
+    - name: athena_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1280
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: -92}
+        - {x: 15, y: -104}
+        - {x: 21, y: -104}
+        - {x: 27, y: -79}
+        - {x: 27, y: 114}
+        - {x: 9, y: 114}
+        - {x: -25, y: 59}
+        - {x: -25, y: -82}
+        - {x: -21, y: -104}
+        - {x: -7, y: -104}
+        - {x: -6, y: -82}
+        - {x: -9, y: -72}
+        - {x: -6, y: -79}
+    - name: athena_9
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1280
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27, y: 110}
+        - {x: 24, y: 116}
+        - {x: 17, y: 116}
+        - {x: 13, y: 107}
+        - {x: 14, y: 100}
+        - {x: -25, y: 48}
+        - {x: -25, y: -80}
+        - {x: -13, y: -105}
+        - {x: -9, y: -105}
+        - {x: -6, y: -100}
+        - {x: -7, y: -84}
+        - {x: 10, y: -103}
+        - {x: 27, y: -94}
+    - name: athena_10
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1280
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: -106}
+        - {x: 27, y: -106}
+        - {x: 27, y: 115}
+        - {x: 7, y: 115}
+        - {x: -25, y: 100}
+        - {x: -25, y: -106}
+        - {x: -9, y: -106}
+        - {x: -7, y: -105}
+        - {x: -5, y: -101}
+        - {x: -7, y: -73}
+        - {x: -6, y: -78}
+    - name: athena_11
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1280
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: -102}
+        - {x: 27, y: -96}
+        - {x: 27, y: 114}
+        - {x: -25, y: 114}
+        - {x: -25, y: -83}
+        - {x: -11, y: -107}
+        - {x: -7, y: -107}
+        - {x: -6, y: -106}
+        - {x: -4, y: -102}
+        - {x: -6, y: -74}
+        - {x: -4, y: -82}
+    - name: athena_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1024
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: -53}
+        - {x: -21, y: -59}
+        - {x: -21, y: -78}
+        - {x: -11, y: -106}
+        - {x: -8, y: -107}
+        - {x: -4, y: -107}
+        - {x: -4, y: -64}
+        - {x: -10, y: -53}
+      - - {x: -25, y: 68}
+        - {x: -25, y: -50}
+        - {x: -9, y: -90}
+        - {x: 24, y: -90}
+        - {x: 25, y: -89}
+        - {x: 27, y: -79}
+        - {x: 27, y: 115}
+        - {x: 17, y: 115}
+        - {x: 1, y: 111}
+    - name: athena_13
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1024
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: -52}
+        - {x: -21, y: -58}
+        - {x: -21, y: -77}
+        - {x: -11, y: -105}
+        - {x: -8, y: -106}
+        - {x: -4, y: -106}
+        - {x: -4, y: -63}
+        - {x: -10, y: -52}
+      - - {x: 20, y: 115}
+        - {x: -25, y: 60}
+        - {x: -25, y: -50}
+        - {x: -10, y: -90}
+        - {x: 24, y: -90}
+        - {x: 25, y: -89}
+        - {x: 27, y: -56}
+        - {x: 27, y: 115}
+    - name: athena_14
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1024
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: -51}
+        - {x: -22, y: -53}
+        - {x: -22, y: -85}
+        - {x: -15, y: -105}
+        - {x: -5, y: -105}
+        - {x: -5, y: -62}
+        - {x: -11, y: -51}
+      - - {x: 20, y: 118}
+        - {x: 13, y: 109}
+        - {x: 14, y: 102}
+        - {x: 17, y: 97}
+        - {x: 14, y: 88}
+        - {x: -12, y: 62}
+        - {x: -25, y: 47}
+        - {x: -25, y: -42}
+        - {x: -12, y: -87}
+        - {x: 27, y: -87}
+        - {x: 27, y: 118}
+    - name: athena_15
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1024
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: -50}
+        - {x: -23, y: -52}
+        - {x: -23, y: -84}
+        - {x: -16, y: -104}
+        - {x: -6, y: -104}
+        - {x: -6, y: -61}
+        - {x: -12, y: -50}
+      - - {x: 19, y: 117}
+        - {x: -25, y: 74}
+        - {x: -25, y: -83}
+        - {x: -14, y: -88}
+        - {x: 27, y: -88}
+        - {x: 27, y: 117}
+    - name: athena_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: -92}
+        - {x: 15, y: -104}
+        - {x: 21, y: -104}
+        - {x: 27, y: -79}
+        - {x: 27, y: 114}
+        - {x: 9, y: 114}
+        - {x: -25, y: 59}
+        - {x: -25, y: -82}
+        - {x: -21, y: -104}
+        - {x: -7, y: -104}
+        - {x: -6, y: -82}
+        - {x: -9, y: -72}
+        - {x: -6, y: -79}
+    - name: athena_17
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27, y: 110}
+        - {x: 24, y: 116}
+        - {x: 17, y: 116}
+        - {x: 13, y: 107}
+        - {x: 14, y: 100}
+        - {x: -25, y: 48}
+        - {x: -25, y: -80}
+        - {x: -13, y: -105}
+        - {x: -9, y: -105}
+        - {x: -6, y: -100}
+        - {x: -7, y: -84}
+        - {x: 10, y: -103}
+        - {x: 27, y: -94}
+    - name: athena_18
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: -106}
+        - {x: 27, y: -106}
+        - {x: 27, y: 115}
+        - {x: 7, y: 115}
+        - {x: -25, y: 100}
+        - {x: -25, y: -106}
+        - {x: -9, y: -106}
+        - {x: -7, y: -105}
+        - {x: -5, y: -101}
+        - {x: -7, y: -73}
+        - {x: -6, y: -78}
+    - name: athena_19
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: -102}
+        - {x: 27, y: -96}
+        - {x: 27, y: 114}
+        - {x: -25, y: 114}
+        - {x: -25, y: -83}
+        - {x: -11, y: -107}
+        - {x: -7, y: -107}
+        - {x: -6, y: -106}
+        - {x: -4, y: -102}
+        - {x: -6, y: -74}
+        - {x: -4, y: -82}
+    - name: athena_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: -53}
+        - {x: -21, y: -59}
+        - {x: -21, y: -78}
+        - {x: -11, y: -106}
+        - {x: -8, y: -107}
+        - {x: -4, y: -107}
+        - {x: -4, y: -64}
+        - {x: -10, y: -53}
+      - - {x: -25, y: 68}
+        - {x: -25, y: -50}
+        - {x: -9, y: -90}
+        - {x: 24, y: -90}
+        - {x: 25, y: -89}
+        - {x: 27, y: -79}
+        - {x: 27, y: 115}
+        - {x: 17, y: 115}
+        - {x: 1, y: 111}
+    - name: athena_21
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: -52}
+        - {x: -21, y: -58}
+        - {x: -21, y: -77}
+        - {x: -11, y: -105}
+        - {x: -8, y: -106}
+        - {x: -4, y: -106}
+        - {x: -4, y: -63}
+        - {x: -10, y: -52}
+      - - {x: 20, y: 115}
+        - {x: -25, y: 60}
+        - {x: -25, y: -50}
+        - {x: -10, y: -90}
+        - {x: 24, y: -90}
+        - {x: 25, y: -89}
+        - {x: 27, y: -56}
+        - {x: 27, y: 115}
+    - name: athena_22
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: -51}
+        - {x: -22, y: -53}
+        - {x: -22, y: -85}
+        - {x: -15, y: -105}
+        - {x: -5, y: -105}
+        - {x: -5, y: -62}
+        - {x: -11, y: -51}
+      - - {x: 20, y: 118}
+        - {x: 13, y: 109}
+        - {x: 14, y: 102}
+        - {x: 17, y: 97}
+        - {x: 14, y: 88}
+        - {x: -12, y: 62}
+        - {x: -25, y: 47}
+        - {x: -25, y: -42}
+        - {x: -12, y: -87}
+        - {x: 27, y: -87}
+        - {x: 27, y: 118}
+    - name: athena_23
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: -50}
+        - {x: -23, y: -52}
+        - {x: -23, y: -84}
+        - {x: -16, y: -104}
+        - {x: -6, y: -104}
+        - {x: -6, y: -61}
+        - {x: -12, y: -50}
+      - - {x: 19, y: 117}
+        - {x: -25, y: 74}
+        - {x: -25, y: -83}
+        - {x: -14, y: -88}
+        - {x: 27, y: -88}
+        - {x: 27, y: 117}
+    - name: athena_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: -92}
+        - {x: 15, y: -104}
+        - {x: 21, y: -104}
+        - {x: 27, y: -79}
+        - {x: 27, y: 114}
+        - {x: 9, y: 114}
+        - {x: -25, y: 59}
+        - {x: -25, y: -82}
+        - {x: -21, y: -104}
+        - {x: -7, y: -104}
+        - {x: -6, y: -82}
+        - {x: -9, y: -72}
+        - {x: -6, y: -79}
+    - name: athena_25
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27, y: 110}
+        - {x: 24, y: 116}
+        - {x: 17, y: 116}
+        - {x: 13, y: 107}
+        - {x: 14, y: 100}
+        - {x: -25, y: 48}
+        - {x: -25, y: -80}
+        - {x: -13, y: -105}
+        - {x: -9, y: -105}
+        - {x: -6, y: -100}
+        - {x: -7, y: -84}
+        - {x: 10, y: -103}
+        - {x: 27, y: -94}
+    - name: athena_26
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: -106}
+        - {x: 27, y: -106}
+        - {x: 27, y: 115}
+        - {x: 7, y: 115}
+        - {x: -25, y: 100}
+        - {x: -25, y: -106}
+        - {x: -9, y: -106}
+        - {x: -7, y: -105}
+        - {x: -5, y: -101}
+        - {x: -7, y: -73}
+        - {x: -6, y: -78}
+    - name: athena_27
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: -102}
+        - {x: 27, y: -96}
+        - {x: 27, y: 114}
+        - {x: -25, y: 114}
+        - {x: -25, y: -83}
+        - {x: -11, y: -107}
+        - {x: -7, y: -107}
+        - {x: -6, y: -106}
+        - {x: -4, y: -102}
+        - {x: -6, y: -74}
+        - {x: -4, y: -82}
+    - name: athena_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: -53}
+        - {x: -21, y: -59}
+        - {x: -21, y: -78}
+        - {x: -11, y: -106}
+        - {x: -8, y: -107}
+        - {x: -4, y: -107}
+        - {x: -4, y: -64}
+        - {x: -10, y: -53}
+      - - {x: -25, y: 68}
+        - {x: -25, y: -50}
+        - {x: -9, y: -90}
+        - {x: 24, y: -90}
+        - {x: 25, y: -89}
+        - {x: 27, y: -79}
+        - {x: 27, y: 115}
+        - {x: 17, y: 115}
+        - {x: 1, y: 111}
+    - name: athena_29
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: -52}
+        - {x: -21, y: -58}
+        - {x: -21, y: -77}
+        - {x: -11, y: -105}
+        - {x: -8, y: -106}
+        - {x: -4, y: -106}
+        - {x: -4, y: -63}
+        - {x: -10, y: -52}
+      - - {x: 20, y: 115}
+        - {x: -25, y: 60}
+        - {x: -25, y: -50}
+        - {x: -10, y: -90}
+        - {x: 24, y: -90}
+        - {x: 25, y: -89}
+        - {x: 27, y: -56}
+        - {x: 27, y: 115}
+    - name: athena_30
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: -51}
+        - {x: -22, y: -53}
+        - {x: -22, y: -85}
+        - {x: -15, y: -105}
+        - {x: -5, y: -105}
+        - {x: -5, y: -62}
+        - {x: -11, y: -51}
+      - - {x: 20, y: 118}
+        - {x: 13, y: 109}
+        - {x: 14, y: 102}
+        - {x: 17, y: 97}
+        - {x: 14, y: 88}
+        - {x: -12, y: 62}
+        - {x: -25, y: 47}
+        - {x: -25, y: -42}
+        - {x: -12, y: -87}
+        - {x: 27, y: -87}
+        - {x: 27, y: 118}
+    - name: athena_31
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: -50}
+        - {x: -23, y: -52}
+        - {x: -23, y: -84}
+        - {x: -16, y: -104}
+        - {x: -6, y: -104}
+        - {x: -6, y: -61}
+        - {x: -12, y: -50}
+      - - {x: 19, y: 117}
+        - {x: -25, y: 74}
+        - {x: -25, y: -83}
+        - {x: -14, y: -88}
+        - {x: 27, y: -88}
+        - {x: 27, y: 117}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

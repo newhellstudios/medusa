@@ -1,0 +1,180 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &173864
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 404572}
+  - 114: {fileID: 11408496}
+  - 114: {fileID: 11441294}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &404572
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 173864}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.58463615, y: -0.12561902, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11408496
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 173864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eaf0143afa54db2438f439fedfaebf49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boardScript: {fileID: 0}
+  pillars: []
+  spawnPoints: []
+--- !u!114 &11441294
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 173864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6a2b11044473fd43a5bec3d11c25ab0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  floorTile: {fileID: 121616, guid: bfbe442486e23004fa3fc585503672a7, type: 2}
+  pillarTile: {fileID: 131106, guid: 0d5e003280531fe41b0bff45c13aa364, type: 2}
+  medusaTile: {fileID: 135390, guid: 5b1f600e40ab4f44f9e0c065bed4c505, type: 2}
+  headTile: {fileID: 132642, guid: 41e522928ce8ae946842a81d9b7053e0, type: 2}
+  athenaTile: {fileID: 127362, guid: c319e136353f6c24ab29ae87c47d3119, type: 2}
+  poseidonTile: {fileID: 166402, guid: ccd5c40706e12d54dacb4facc8c3e3a7, type: 2}
+  leftWall: {fileID: 161796, guid: 05814aa1d6dfd9c44a3b00836f6e4412, type: 2}
+  topLeftWallCorner: {fileID: 161796, guid: cacf74389eb611d4f83678d7fa558f14, type: 2}
+  topWall: {fileID: 161796, guid: d05760f6dbdb2e04394d6aed39bcdfea, type: 2}
+  topRightWallCorner: {fileID: 161796, guid: 945e1f4c1ae154e448e0cb820b1084e3, type: 2}
+  rightWall: {fileID: 161796, guid: 42c40ec69b5c8bf43b9271ea93084c35, type: 2}
+  bottomRightWallCorner: {fileID: 161796, guid: fb59882eab2105344a5393196276da2a,
+    type: 2}
+  bottomWall: {fileID: 161796, guid: f7e8229a4ca10ad449c0b845f5d85c89, type: 2}
+  bottomLeftWallCorner: {fileID: 161796, guid: 0b37429cdcf87bd468ec351a5c3893d4, type: 2}
+  heroTile: {fileID: 175168, guid: 823a8f3e086ea6047bda569a950af470, type: 2}
+  pointLightTile: {fileID: 101692, guid: 40343a90245c2be4aab618402ceca29f, type: 2}
+  medusaLight: {fileID: 101692, guid: 40343a90245c2be4aab618402ceca29f, type: 2}
+  athenaLight: {fileID: 101692, guid: 40343a90245c2be4aab618402ceca29f, type: 2}
+  snakesTile: {fileID: 139788, guid: 73023e2cdd0e85445bc85c49f79e4532, type: 2}
+  spawnPoint: {fileID: 154576, guid: 58cb129bfc8bdf64cb0220781aa9762b, type: 2}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: columns
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: rows
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: medusaTile
+      value: 
+      objectReference: {fileID: 135390, guid: 5b1f600e40ab4f44f9e0c065bed4c505, type: 2}
+    - target: {fileID: 0}
+      propertyPath: pillarTile
+      value: 
+      objectReference: {fileID: 131106, guid: 0d5e003280531fe41b0bff45c13aa364, type: 2}
+    - target: {fileID: 0}
+      propertyPath: floorTile
+      value: 
+      objectReference: {fileID: 121616, guid: bfbe442486e23004fa3fc585503672a7, type: 2}
+    - target: {fileID: 0}
+      propertyPath: leftWall
+      value: 
+      objectReference: {fileID: 161796, guid: 05814aa1d6dfd9c44a3b00836f6e4412, type: 2}
+    - target: {fileID: 0}
+      propertyPath: topLeftWallCorner
+      value: 
+      objectReference: {fileID: 161796, guid: cacf74389eb611d4f83678d7fa558f14, type: 2}
+    - target: {fileID: 0}
+      propertyPath: topWall
+      value: 
+      objectReference: {fileID: 161796, guid: d05760f6dbdb2e04394d6aed39bcdfea, type: 2}
+    - target: {fileID: 0}
+      propertyPath: topRightWallCorner
+      value: 
+      objectReference: {fileID: 161796, guid: 945e1f4c1ae154e448e0cb820b1084e3, type: 2}
+    - target: {fileID: 0}
+      propertyPath: rightWall
+      value: 
+      objectReference: {fileID: 161796, guid: 42c40ec69b5c8bf43b9271ea93084c35, type: 2}
+    - target: {fileID: 0}
+      propertyPath: bottomRightWallCorner
+      value: 
+      objectReference: {fileID: 161796, guid: fb59882eab2105344a5393196276da2a, type: 2}
+    - target: {fileID: 0}
+      propertyPath: bottomWall
+      value: 
+      objectReference: {fileID: 161796, guid: f7e8229a4ca10ad449c0b845f5d85c89, type: 2}
+    - target: {fileID: 0}
+      propertyPath: bottomLeftWallCorner
+      value: 
+      objectReference: {fileID: 161796, guid: 0b37429cdcf87bd468ec351a5c3893d4, type: 2}
+    - target: {fileID: 0}
+      propertyPath: headTile
+      value: 
+      objectReference: {fileID: 132642, guid: 41e522928ce8ae946842a81d9b7053e0, type: 2}
+    - target: {fileID: 0}
+      propertyPath: swordTile
+      value: 
+      objectReference: {fileID: 153962, guid: 8e8110fc27301ae49913e0d85d85699b, type: 2}
+    - target: {fileID: 0}
+      propertyPath: heroTile
+      value: 
+      objectReference: {fileID: 175168, guid: 823a8f3e086ea6047bda569a950af470, type: 2}
+    - target: {fileID: 0}
+      propertyPath: pointLight
+      value: 
+      objectReference: {fileID: 101692, guid: 40343a90245c2be4aab618402ceca29f, type: 2}
+    - target: {fileID: 0}
+      propertyPath: pointLightTile
+      value: 
+      objectReference: {fileID: 101692, guid: 40343a90245c2be4aab618402ceca29f, type: 2}
+    - target: {fileID: 0}
+      propertyPath: medusaLight
+      value: 
+      objectReference: {fileID: 101692, guid: 40343a90245c2be4aab618402ceca29f, type: 2}
+    - target: {fileID: 0}
+      propertyPath: snakesTile
+      value: 
+      objectReference: {fileID: 139788, guid: 73023e2cdd0e85445bc85c49f79e4532, type: 2}
+    - target: {fileID: 0}
+      propertyPath: athenaLight
+      value: 
+      objectReference: {fileID: 101692, guid: 40343a90245c2be4aab618402ceca29f, type: 2}
+    - target: {fileID: 0}
+      propertyPath: athenaTile
+      value: 
+      objectReference: {fileID: 127362, guid: c319e136353f6c24ab29ae87c47d3119, type: 2}
+    - target: {fileID: 0}
+      propertyPath: spawnPoint
+      value: 
+      objectReference: {fileID: 154576, guid: 58cb129bfc8bdf64cb0220781aa9762b, type: 2}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 173864}
+  m_IsPrefabParent: 1

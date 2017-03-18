@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Pillar
+  - Enemy
+  - Hero
+  - Wall
+  - Sword
+  - Head
+  - Snakes
+  - SnakesVulnerableHitbox
+  - WPPathfinder
+  - Waypoint
+  - Obst
+  - EnemyPhysCollider
+  - MedusaSounds
+  - HeadSounds
+  - HeroSounds
+  - TextMenu
+  - MedusaSounds2
+  - MedusaSounds3
+  - SwordSounds
+  - HeroSounds2
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Pillar
+  - Wall
+  - Hero
+  - SpawnPoint
+  - Light
+  - Tile
+  - Enemy
+  - PillarPath
+  - AthenaCollider
+  - EnemyPhysCollider
+  - Head
+  - AthenaIntro
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Floor
+    uniqueID: 2910832747
+    locked: 0
+  - name: Items
+    uniqueID: 282764877
+    locked: 0
+  - name: Units
+    uniqueID: 445989421
+    locked: 0

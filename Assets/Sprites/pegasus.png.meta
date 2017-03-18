@@ -1,0 +1,457 @@
+fileFormatVersion: 2
+guid: e55878357839db74ebaed7ca100af338
+timeCreated: 1465873386
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: pegasus_0
+    21300002: pegasus_1
+    21300004: pegasus_2
+    21300006: pegasus_3
+    21300008: pegasus_4
+    21300010: pegasus_5
+    21300012: pegasus_6
+    21300014: pegasus_7
+    21300016: pegasus_8
+    21300018: pegasus_9
+    21300020: pegasus_10
+    21300022: pegasus_11
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 8192
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 64
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: pegasus_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 10}
+        - {x: 5, y: 9}
+        - {x: 1, y: 10}
+        - {x: -3, y: 10}
+        - {x: -7, y: 9}
+        - {x: -16, y: 2}
+        - {x: -16, y: -11}
+        - {x: -12, y: -34}
+        - {x: 10, y: -34}
+        - {x: 18, y: -20}
+        - {x: 18, y: 10}
+    - name: pegasus_1
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 960
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: -1}
+        - {x: -22, y: -7}
+        - {x: -22, y: -25}
+        - {x: -16, y: -34}
+        - {x: 9, y: -34}
+        - {x: 13, y: -28}
+        - {x: 13, y: -5}
+        - {x: 9, y: -1}
+    - name: pegasus_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 8}
+        - {x: -21, y: -4}
+        - {x: -21, y: -34}
+        - {x: 20, y: -34}
+        - {x: 28, y: -27}
+        - {x: 28, y: -4}
+        - {x: 22, y: 8}
+    - name: pegasus_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 768
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 35}
+        - {x: -20, y: 32}
+        - {x: -21, y: 25}
+        - {x: -21, y: -34}
+        - {x: 15, y: -34}
+        - {x: 50, y: -29}
+        - {x: 55, y: -16}
+        - {x: 55, y: 10}
+        - {x: 33, y: 35}
+    - name: pegasus_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28, y: -22}
+        - {x: 32, y: -23}
+        - {x: 35, y: -22}
+        - {x: 38, y: -23}
+        - {x: 29, y: -23}
+        - {x: 26, y: -24}
+        - {x: 22, y: -26}
+        - {x: 23, y: -33}
+        - {x: 27, y: -34}
+        - {x: 67, y: -34}
+        - {x: 74, y: -10}
+        - {x: 74, y: 17}
+        - {x: 50, y: 36}
+        - {x: 49, y: 36}
+        - {x: 52, y: 36}
+        - {x: 54, y: 38}
+        - {x: 54, y: 47}
+        - {x: 37, y: 51}
+        - {x: 29, y: 49}
+        - {x: 24, y: 45}
+        - {x: 23, y: 52}
+        - {x: 11, y: 60}
+        - {x: 3, y: 60}
+        - {x: -21, y: 46}
+        - {x: -34, y: 25}
+        - {x: -34, y: -24}
+        - {x: -30, y: -25}
+        - {x: -21, y: -15}
+        - {x: -20, y: -30}
+        - {x: -19, y: -32}
+        - {x: -17, y: -34}
+        - {x: 15, y: -34}
+        - {x: 17, y: -32}
+        - {x: 16, y: -29}
+        - {x: 25, y: -24}
+      - - {x: -28, y: 40}
+        - {x: -25, y: 37}
+        - {x: -22, y: 38}
+        - {x: -22, y: 41}
+        - {x: -25, y: 44}
+        - {x: -28, y: 43}
+    - name: pegasus_5
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 576
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: -16}
+        - {x: 16, y: -10}
+        - {x: 20, y: -8}
+        - {x: 21, y: -5}
+        - {x: 22, y: -7}
+        - {x: 16, y: -10}
+        - {x: 10, y: -16}
+        - {x: 11, y: -19}
+        - {x: 59, y: -33}
+        - {x: 88, y: -27}
+        - {x: 94, y: -16}
+        - {x: 96, y: -6}
+        - {x: 96, y: 15}
+        - {x: 91, y: 8}
+        - {x: 87, y: 8}
+        - {x: 93, y: 13}
+        - {x: 96, y: 22}
+        - {x: 96, y: 27}
+        - {x: 64, y: 60}
+        - {x: 61, y: 61}
+        - {x: 58, y: 59}
+        - {x: 56, y: 54}
+        - {x: 56, y: 55}
+        - {x: 54, y: 57}
+        - {x: 52, y: 56}
+        - {x: 54, y: 57}
+        - {x: 57, y: 58}
+        - {x: 60, y: 63}
+        - {x: 55, y: 69}
+        - {x: -13, y: 69}
+        - {x: -33, y: 49}
+        - {x: -33, y: -5}
+        - {x: -22, y: -34}
+        - {x: 12, y: -34}
+        - {x: 14, y: -33}
+        - {x: 15, y: -30}
+        - {x: 5, y: -25}
+      - - {x: 34, y: -24}
+        - {x: 34, y: -31}
+        - {x: 41, y: -34}
+        - {x: 57, y: -34}
+        - {x: 61, y: -30}
+        - {x: 61, y: -24}
+    - name: pegasus_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: -28}
+        - {x: -16, y: -31}
+        - {x: -15, y: -34}
+        - {x: 3, y: -34}
+        - {x: 5, y: -33}
+        - {x: 5, y: -31}
+        - {x: 2, y: -28}
+      - - {x: 53, y: -27}
+        - {x: 47, y: -28}
+        - {x: 46, y: -30}
+        - {x: 47, y: -34}
+        - {x: 63, y: -34}
+        - {x: 64, y: -31}
+        - {x: 64, y: -29}
+        - {x: 62, y: -27}
+      - - {x: 48, y: 75}
+        - {x: 23, y: 75}
+        - {x: -9, y: 41}
+        - {x: -9, y: 4}
+        - {x: -2, y: -18}
+        - {x: 5, y: -15}
+        - {x: 6, y: -10}
+        - {x: 6, y: -7}
+        - {x: 7, y: -6}
+        - {x: 6, y: -9}
+        - {x: 6, y: -15}
+        - {x: 15, y: -27}
+        - {x: 29, y: -27}
+        - {x: 63, y: -17}
+        - {x: 65, y: -12}
+        - {x: 65, y: 73}
+      - - {x: 71, y: 4}
+        - {x: 41, y: 4}
+        - {x: 41, y: -5}
+        - {x: 50, y: -12}
+        - {x: 69, y: -12}
+        - {x: 71, y: -11}
+        - {x: 74, y: -6}
+        - {x: 74, y: -2}
+        - {x: 73, y: 3}
+      - - {x: 87, y: 25}
+        - {x: 82, y: 22}
+        - {x: 79, y: 19}
+        - {x: 79, y: 17}
+        - {x: 82, y: 16}
+        - {x: 74, y: -9}
+        - {x: 75, y: -12}
+        - {x: 80, y: -12}
+        - {x: 88, y: -10}
+        - {x: 96, y: -1}
+        - {x: 96, y: 23}
+        - {x: 95, y: 25}
+      - - {x: -11, y: 35}
+        - {x: -8, y: 38}
+        - {x: -8, y: 50}
+        - {x: -9, y: 52}
+        - {x: -13, y: 52}
+        - {x: -15, y: 50}
+        - {x: -15, y: 35}
+      - - {x: -24, y: 65}
+        - {x: -24, y: 58}
+        - {x: -22, y: 52}
+        - {x: -8, y: 52}
+        - {x: 6, y: 69}
+        - {x: 6, y: 84}
+        - {x: -7, y: 84}
+        - {x: -16, y: 81}
+        - {x: -23, y: 70}
+      - - {x: 68, y: 87}
+        - {x: 70, y: 81}
+        - {x: 73, y: 81}
+        - {x: 74, y: 84}
+        - {x: 73, y: 76}
+        - {x: 76, y: 74}
+        - {x: 81, y: 78}
+        - {x: 81, y: 90}
+        - {x: 78, y: 96}
+        - {x: 50, y: 96}
+        - {x: 44, y: 83}
+        - {x: 44, y: 65}
+        - {x: 58, y: 65}
+        - {x: 68, y: 73}
+        - {x: 67, y: 84}
+        - {x: 64, y: 85}
+    - name: pegasus_7
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 384
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34, y: 96}
+        - {x: -34, y: -32}
+        - {x: -32, y: -34}
+        - {x: 96, y: -34}
+        - {x: 96, y: 96}
+    - name: pegasus_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 37, y: 72}
+        - {x: 33, y: 73}
+        - {x: -14, y: 73}
+        - {x: -16, y: 69}
+        - {x: -16, y: -6}
+        - {x: -11, y: -19}
+        - {x: 4, y: -12}
+        - {x: 6, y: -9}
+        - {x: 4, y: -14}
+        - {x: 1, y: -27}
+        - {x: 9, y: -29}
+        - {x: 29, y: -29}
+        - {x: 30, y: -24}
+        - {x: 69, y: 5}
+        - {x: 69, y: 30}
+    - name: pegasus_9
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 62, y: 72}
+        - {x: 7, y: 72}
+        - {x: -16, y: 41}
+        - {x: -16, y: -2}
+        - {x: -1, y: -29}
+        - {x: 28, y: -29}
+        - {x: 37, y: -20}
+        - {x: 69, y: 18}
+        - {x: 69, y: 63}
+    - name: pegasus_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 81, y: -29}
+        - {x: 81, y: -19}
+        - {x: 77, y: -12}
+        - {x: 71, y: 26}
+        - {x: 65, y: 39}
+        - {x: 40, y: 74}
+        - {x: 14, y: 74}
+        - {x: -24, y: 26}
+        - {x: -24, y: -7}
+        - {x: -20, y: -15}
+        - {x: 8, y: -29}
+        - {x: 24, y: -29}
+        - {x: 30, y: -27}
+        - {x: 26, y: -16}
+        - {x: 54, y: -27}
+        - {x: 72, y: -29}
+    - name: pegasus_11
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: 76}
+        - {x: -16, y: 42}
+        - {x: -16, y: -20}
+        - {x: -6, y: -29}
+        - {x: 29, y: -29}
+        - {x: 67, y: 6}
+        - {x: 67, y: 44}
+        - {x: 41, y: 76}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
