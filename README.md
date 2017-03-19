@@ -7,4 +7,4 @@ http://www.newhellstudios.com/
 
 Steam store - http://store.steampowered.com/app/547260/
 
-Please consider donating - https://www.paypal.com/donate/?token=JPkjMnLzNrw4ewKl-whrWsB8uA8n-ypK1vQVAqAVPB9SJXmksE6VP6Zu4uh0jwr0ceH1hm
+Please consider donating - https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7PBVKFALUZRNQ
