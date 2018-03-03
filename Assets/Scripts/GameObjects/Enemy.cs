@@ -352,12 +352,26 @@ public class Enemy : MovingObject {
     private Vector3 GetSpawnPoint() {
         Collider2D[] colliders = CircleCastForSpawnPoints();
         List<Collider2D> listOfColliders = new List<Collider2D>();
-        foreach ( Collider2D collider in colliders ) {
-            if ( Vector3.Distance( target.position, collider.transform.position ) > minimumSpawnPointDistanceForSpawn ) {
-                listOfColliders.Add( collider );
+        if ( MainLoader.RngEnabled ) {
+            foreach ( Collider2D collider in colliders ) {
+                if ( Vector3.Distance( target.position, collider.transform.position ) > minimumSpawnPointDistanceForSpawn ) {
+                    listOfColliders.Add( collider );
+                }
             }
+            return listOfColliders[systemRandom.Next( listOfColliders.Count )].transform.position;
         }
-        return listOfColliders[systemRandom.Next( listOfColliders.Count )].transform.position;
+        else {
+            var lastDistance = 0f;
+            var colliderPoint = Vector3.zero;
+            foreach ( Collider2D collider in colliders ) {
+                var distance = Vector3.Distance( target.position, collider.transform.position );
+                if ( distance > minimumSpawnPointDistanceForSpawn && distance > lastDistance ) {
+                    lastDistance = distance;
+                    colliderPoint = collider.transform.position;
+                }
+            }
+            return colliderPoint;
+        }
     }
 
     private Collider2D[] CircleCastForPatrolPoints() {

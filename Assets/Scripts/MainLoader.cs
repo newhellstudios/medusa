@@ -19,10 +19,12 @@ public class MainLoader : MonoBehaviour {
     private bool healthInputEnabled;
     private GameObject healthInputField;
     private GameObject arcadeExplanation;
+    private GameObject rngCheck;
     private bool optionSelected;
 
     private GameObject textHolder;
     private bool arcadeEnabled;
+    private static bool rngEnabled;
     private string text;
     private string newText;
     private bool canSwitchAgain;
@@ -74,6 +76,19 @@ public class MainLoader : MonoBehaviour {
         }
     }
 
+    public static bool RngEnabled
+    {
+        get
+        {
+            return rngEnabled;
+        }
+
+        set
+        {
+            rngEnabled =  value ;
+        }
+    }
+
     public void LoadScene() {
         GetComponent<AudioSource>().clip = menuSelect;
         GetComponent<AudioSource>().Play();
@@ -89,6 +104,10 @@ public class MainLoader : MonoBehaviour {
 
         if ( !PlayerPrefs.HasKey( "ArcadeHealth" ) ) {
             PlayerPrefs.SetInt( "ArcadeHealth", 10 );
+        }
+
+        if ( !PlayerPrefs.HasKey( "rngEnabled" ) ) {
+            PlayerPrefs.SetInt( "rngEnabled", 1);
         }
 
         if ( !PlayerPrefs.HasKey( "beatStory" ) ) {
@@ -113,7 +132,10 @@ public class MainLoader : MonoBehaviour {
     private void Start() {
         arcadeEnabled = false;
         healthInputField = GameObject.Find( "HealthInputField" );
+        arcadeExplanation = GameObject.Find( "ArcadeExplanation" );
+        rngCheck = GameObject.Find( "Respawn RNG" );
         healthInputField.SetActive( false );
+        rngCheck.SetActive(false);
         textHolder = GameObject.Find( "TextHolder" );
         if ( PlayerPrefs.GetInt( "beatStory" ) == 0 ) {
             GameObject.Find( "text menu arcade mode" ).GetComponent<SpriteRenderer>().color = Color.gray;
@@ -129,15 +151,15 @@ public class MainLoader : MonoBehaviour {
             text = healthInputField.GetComponent<InputField>().text;
             newText = Regex.Replace( text, "[^\\d]", "" );
             if ( newText != "" ) {
-                if ( int.Parse( newText ) < 10 ) {
-                    newText = "10";
+                if ( int.Parse( newText ) < 1 ) {
+                    newText = "1";
                 }
-                else if ( int.Parse( newText ) > 10 ) {
-                    newText = "10";
+                else if ( int.Parse( newText ) > 999 ) {
+                    newText = "999";
                 }
             }
             healthInputField.GetComponent<InputField>().text = newText;
-            //healthInputField.GetComponent<InputField>().ActivateInputField();
+            healthInputField.GetComponent<InputField>().ActivateInputField();
         }
 
     }
@@ -159,6 +181,9 @@ public class MainLoader : MonoBehaviour {
             if ( !arcadeEnabled && Input.GetButtonUp( "attack" ) && newText != "" ) {
                 arcadeEnabled = true;
                 PlayerPrefs.SetInt( "ArcadeHealth", int.Parse( newText ) );
+                PlayerPrefs.SetInt( "rngEnabled", rngCheck.GetComponent<Toggle>().isOn ? 1 : 0 );
+                rngCheck.GetComponent<Toggle>().isOn = PlayerPrefs.GetInt( "rngEnabled" ) == 1 ? true : false;
+                RngEnabled = PlayerPrefs.GetInt( "rngEnabled" ) == 1 ? true : false;
                 providedArcadeHealth = int.Parse( newText );
                 LoadScene();
                 return;
@@ -198,16 +223,18 @@ public class MainLoader : MonoBehaviour {
                         optionSelected = true;
                         ArcadeMode = true;
                         //Rect( ( Screen.width - w ) / 2, ( Screen.height - h ) / 2, w, h );
-                        healthInputField.GetComponent<RectTransform>().position = new Vector3( ( Screen.width - 100 ) / 2, ( ( Screen.height - 32 ) / 2 ) - ( Screen.height / 4 ) );
+                        healthInputField.GetComponent<RectTransform>().position = new Vector3( ( Screen.width - 100 ) / 2, ( ( Screen.height - 175 ) / 2 ) - ( Screen.height / 4 ) );
                         //healthInputField.GetComponent<RectTransform>().pivot = new Vector2(0f,10);
                         healthInputField.SetActive( true );
                         healthInputField.GetComponent<InputField>().text = PlayerPrefs.GetInt( "ArcadeHealth" ).ToString();
-                        arcadeExplanation = GameObject.Find( "ArcadeExplanation" );
-                        arcadeExplanation.GetComponent<TextMesh>().text = "NUMBER OF HIT POINTS FOR MEDUSA";
-                        arcadeExplanation.GetComponent<TextMesh>().text += "\nCOMPETE ON STEAM LEADERBOARDS!!";
+                        rngCheck.GetComponent<Toggle>().isOn = PlayerPrefs.GetInt("rngEnabled") == 1 ? true : false;
+                        arcadeExplanation.GetComponent<TextMesh>().text 
+                            = "---NUMBER OF HIT POINTS FOR MEDUSA--- \n Enter <color=#ff0000ff><b>\"10\"</b></color> with <color=#ff0000ff>\"Respawn RNG\"</color> enabled \n to compete on Steam Leaderboards";
                         arcadeExplanation.GetComponent<RectTransform>().position = new Vector3( 0, 0, -1 );
                         arcadeExplanation.GetComponent<RectTransform>().anchorMax = new Vector2( 0, -.05f );
                         arcadeExplanation.GetComponent<RectTransform>().anchorMin = new Vector2( 0, -.05f );
+                        rngCheck.SetActive( true );
+                        rngCheck.GetComponent<RectTransform>().position = new Vector3( (( Screen.width - 75 ) / 2) + 10, ( ( Screen.height - 260 ) / 2 ) - ( Screen.height / 4 ), -1 );
                         DisableUI();
                         HealthInputEnabled = true;
                         //LoadScene();
